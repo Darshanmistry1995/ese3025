@@ -10,6 +10,7 @@
 static void setHrd(void)
 	
       {
+	
 	SystemCoreClockUpdate();
 	Board_Init(); //Initializing a board for setting up....
 
