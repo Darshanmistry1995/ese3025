@@ -20,6 +20,7 @@ void POINT()
             cout << "Value at *ptr = " << *ptr << "\n"; 
               
             // Increment pointer ptr by 1  
+        
             ptr++; 
     } 
 } 
