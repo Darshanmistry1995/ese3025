@@ -5,6 +5,7 @@ int main()
     char c[100000000000];
     FILE *fptr;
     if ((fptr = fopen("NSC.txt", "r")) == NULL) 
+        
 {
         printf("Error! opening file");
         // Program exits if file pointer returns NULL.
