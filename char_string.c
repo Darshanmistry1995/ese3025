@@ -12,7 +12,7 @@ int main()
         exit(1);
     }
 
-    // reads text until newline is encountered
+    // Reads text until newline is encountered
     fscanf(fptr, "%s", c);
     printf("Data from the file:\n%s", c);
     fclose(fptr);
