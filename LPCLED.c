@@ -32,7 +32,7 @@ static void setHrd(void)
 	bool button_state = false ;
 	bool LedState = false;
         
-       //Conditions after read the state of the button..
+       //Conditions after read the state of the button....
 
 	if(Buttons_GetStatus()==0x01) 
 
