@@ -7,7 +7,7 @@
 #include "task.h"
 
 
-/* Sets up system hardware */
+/*....Sets up system hardware....*/
 #include "board.h"
 #include "FreeRTOS.h"
 #include "task.h"
