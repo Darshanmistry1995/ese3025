@@ -4,8 +4,7 @@
 #include <unistd.h>
 #include <time.h>
 
-void sig_handler(int signo)
-    
+void sig_handler(int signo)  
 {
     if (signo == SIGINT)
         printf("\nreceived SIGINT\n");
