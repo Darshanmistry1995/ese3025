@@ -51,7 +51,8 @@ int main(void)
         else {
            printf("%u) LED --- OFF\n", cnt);
            system("echo 0 > /sys/class/gpio/gpio68/value");
-        }
+            
+             }
 
         cnt += 1;
         sleep(1);
