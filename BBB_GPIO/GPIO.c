@@ -19,7 +19,9 @@ int main(void)
     int status;
     unsigned int cnt=0;
     
-    if (signal(SIGINT, sig_handler) == SIG_ERR) {
+    if (signal(SIGINT, sig_handler) == SIG_ERR) 
+    
+    {
         printf("\ncan't catch SIG Handler\n");
         exit(1);
     }
