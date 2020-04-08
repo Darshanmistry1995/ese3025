@@ -26,7 +26,9 @@ int main(void)
 
     status = access("/sys/class/gpio/gpio68/value", F_OK );
 
-    if (status == -1) {
+    if (status == -1)
+    
+    {
         // file doesn't exist
         printf("GPIO_68 file doesn't exist. Execute \'echo $GPIO > export\' \
                 in /sys/class/gpio as root where $GPIO = 68\n");
