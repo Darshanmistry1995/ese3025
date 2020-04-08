@@ -3,7 +3,6 @@
 #include <signal.h>
 #include <unistd.h>
 #include <time.h>
-
 void sig_handler(int signo)
     
 {
