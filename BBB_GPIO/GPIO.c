@@ -39,7 +39,9 @@ int main(void)
     system("echo out > /sys/class/gpio/gpio68/direction"); 
     sleep(1);    
 
-    while(1) {
+    while(1)
+        
+       {
         if (cnt % 2 == 0) {
            printf("%u) LED --- ON\n", cnt);
            system("echo 1 > /sys/class/gpio/gpio68/value");
