@@ -5,13 +5,16 @@
 #include <time.h>
 
 void sig_handler(int signo)
+    
 {
     if (signo == SIGINT)
         printf("\nreceived SIGINT\n");
     exit(1);
 }
 
-int main(void) {
+int main(void)
+    
+   {
 
     int status;
     unsigned int cnt=0;
