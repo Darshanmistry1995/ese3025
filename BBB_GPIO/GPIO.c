@@ -36,6 +36,7 @@ int main(void)
                 in /sys/class/gpio as root where $GPIO = 68\n");
         exit(1);
     }
+    
 
     //Set GPIO 68 as output
     system("echo out > /sys/class/gpio/gpio68/direction"); 
