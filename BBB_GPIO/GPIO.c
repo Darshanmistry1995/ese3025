@@ -41,7 +41,7 @@ int main(void)
 
     while(1)
         
-       {
+        {
         if (cnt % 2 == 0)
         
         {
