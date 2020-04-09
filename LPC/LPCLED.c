@@ -21,6 +21,7 @@ static void setHrd(void)
         }
 
  int main() 
+	 
       {
 	setHrd();
 	int i=0;
