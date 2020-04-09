@@ -10,7 +10,7 @@ void my_ran(int lower, int higher, int count)
             int i; 
             for (i = 0; i < count; i++)
                 { 
-                  int num = (rand() % (higher - lower + 2)) + higher; 
+                   int num = (rand() % (higher - lower + 2)) + higher; 
                       printf("The randum number is %d", num ); 
                  } 
                    } 
