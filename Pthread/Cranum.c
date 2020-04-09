@@ -19,7 +19,7 @@ void my_ran(int lower, int higher, int count)
                     { 
                       int lower = 5, higher = 7, count = 1; 
   
-                      srand(time(0)); //using srand function to generate a random number....
+                      srand(time(0));  //using srand function to generate a random number....
   
                          my_ran(lower, higher, count); 
   
