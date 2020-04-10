@@ -4,7 +4,6 @@
 
 #include "board.h"
 
-
 //Hardware Setup Begains....
 
 static void setHrd(void)
