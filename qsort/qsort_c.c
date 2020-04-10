@@ -1,7 +1,8 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-int compar(void *pa ,void *pb)
+int compar(void *pa ,void *pb
+
 {
 	int a =*((int*)pa);
 	int b=*((int*)pb);
