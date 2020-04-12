@@ -73,8 +73,6 @@ int main(void)
 
 prvSetupHardware();
 
-
-
 /* GREEN toggle thread */
 xTaskCreate(vLED_ToggleTask, (signed char *) "vTaskLed2",
 configMINIMAL_STACK_SIZE, (void*)&led_green, (tskIDLE_PRIORITY + 2UL),
