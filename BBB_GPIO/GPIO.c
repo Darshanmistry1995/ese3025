@@ -15,7 +15,6 @@ void sig_handler(int signo)
 int main(void)
     
    {
-
     int status;
     unsigned int cnt=0;
     
