@@ -3,7 +3,7 @@
 
 int compar(void *pa ,void *pb
 
-{
+ {
 	int a =*((int*)pa);
 	int b=*((int*)pb);
 	int ret=0;
@@ -13,7 +13,7 @@ int compar(void *pa ,void *pb
 	else if (a>b)
 		ret=1;
 	return ret ;
-}
+ }
 
  int main()
 
