@@ -7,12 +7,12 @@ int main()
     if ((fptr = fopen("NSC.txt", "r")) == NULL) 
         
 {
-        printf("Error! opening file....");
+        printf("Error! opening file..");
         // Program exits if file pointer returns NULL.
         exit(1);
     }
 
-    // Reads text until newline is encountered
+    // Reads text until newline is encountered 
     fscanf(fptr, "%s", c);
     printf("Data from the file:\n%s", c);
     fclose(fptr);
