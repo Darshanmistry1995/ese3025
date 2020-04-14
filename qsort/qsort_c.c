@@ -16,7 +16,6 @@ int compar(void *pa ,void *pb
  }
 
  int main()
-
 	   
 {
 	 printf("Before sorted array= ");
