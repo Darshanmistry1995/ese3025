@@ -17,6 +17,7 @@ int compar(void *pa ,void *pb
 
  int main()
 
+	   
 {
 	 printf("Before sorted array= ");
     int qsarr[] = {8,1,-5,-99,-23,14,85,25,12};
