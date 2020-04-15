@@ -18,7 +18,6 @@ void my_ran(int lower, int higher, int count)
                  } 
   
                   } 
-  
                     int main() 
                     { 
                       int lower = 5, higher = 7, count = 1; 
