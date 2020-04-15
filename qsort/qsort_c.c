@@ -35,4 +35,4 @@ int compar(void *pa ,void *pb
         printf ("%d ", qsarr[i]);
 
     return 0;
-}
+                      }
