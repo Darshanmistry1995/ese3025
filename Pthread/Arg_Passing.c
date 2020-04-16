@@ -5,14 +5,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct argum 
+struct argum //use a function by a struct
 
 {
     char* user_name;
     int user_age;
 };
 
-void *func(void *input) 
+void *func(void *input) //creat a void function for argumnet 
 
 {
     printf("name: %s\n", ((struct argum*)input)->user_name);
@@ -26,7 +26,7 @@ int main() {
     Darshan->user_age = 24;
 
     pthread_t tid;
-    pthread_create(&tid, NULL, func, (void *)Darshan);
+    pthread_create(&tid, NULL, func, (void *)Darshan); //pass a argument by pthread
     pthread_join(tid, NULL);
     return 0;
 }
