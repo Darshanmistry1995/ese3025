@@ -21,9 +21,10 @@ void *func(void *input) //creat a void function for argumnet
 
 int main() {
     struct argum *Darshan = (struct argum *)malloc(sizeof(struct argum));
-    char darshan[] = "Darshan";
+    char darshan[10];
     Darshan->user_name = darshan;
     Darshan->user_age = 24;
+    scanf("%s",darshan); //enter a user name
 
     pthread_t tid;
     pthread_create(&tid, NULL, func, (void *)Darshan); //pass a argument by pthread
