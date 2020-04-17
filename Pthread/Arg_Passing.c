@@ -5,8 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct argum //use a function by a struct
-
+struct argum //use a function by a struct..
 {
     char* user_name;
     int user_age;
