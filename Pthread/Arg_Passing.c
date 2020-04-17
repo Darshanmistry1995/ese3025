@@ -18,7 +18,8 @@ void *func(void *input) //creat a void function for argumnet
     printf("age: %d\n", ((struct argum*)input)->user_age);
 }
 
-int main() {
+int main() 
+{
     struct argum *Darshan = (struct argum *)malloc(sizeof(struct argum));
     char darshan[10];
     Darshan->user_name = darshan;
