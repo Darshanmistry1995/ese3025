@@ -9,7 +9,7 @@ struct argum //create a function using a struct..
 {
     char* user_name;
     int user_age;
-};
+  };
 
 void *func(void *input) //creat a void function for argumnet 
 
