@@ -14,7 +14,7 @@
 #define turn_on  0
 #define turn_off 1
 
-//Global variables
+//Global variables...
 
 uint8_t led_green=1;
 uint8_t led_red= 0;
