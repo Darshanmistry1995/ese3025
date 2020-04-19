@@ -27,7 +27,7 @@ static void prvSetupHardware(void)
 SystemCoreClockUpdate();
 Board_Init();
 
-/* Initial LEDs state is off */
+/***Initial LEDs state is off ***/
 Board_LED_Set(0, turn_off);
 Board_LED_Set(1, turn_off);
 Board_LED_Set(2, turn_off);
