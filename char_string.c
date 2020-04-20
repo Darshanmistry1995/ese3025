@@ -9,7 +9,7 @@ int main()
 {
         printf("Error! opening file...
                
-       ");
+");
         // Program exits if file pointer returns NULL.
         exit(1);
     }
