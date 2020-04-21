@@ -1,4 +1,5 @@
 //Darshan Mistry...
+//Random number generate......
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,34 +8,34 @@
 int main(void) 
 {
 
-int rand_num = 0;
-int _num = 0;
-int cnt = 0; 
+int rand_num = 0;  //Initiate a srand function for get a randopm number..
+int choose_num = 0; //Entered number..
+int cnt = 0;  //initiate a counter...
 
 srand(time(NULL));
-rand_num = rand() % 10 + 5;
+rand_num = rand() % 10 + 5; //Add some number to random number..
 
 printf("Choose any number...! "); 
 
-    while(1)
-    {
-        cnt++; 
-
-        scanf("%d", &Choose_num);
-
-        if (guessed_num == random_num) 
+        while(1) //while loop to set a condition...
         {
-            printf("You guessed correctly in %d tries! Congratulations!\n", counter); 
+        cnt++; //increament a counter..
+
+        scanf("%d", &choose_num);  
+
+        if (choose_num == rand_num) //condition_1
+        {
+            printf("You Win, Congrets..!\n", cnt); 
             break;
         }
 
-        if (guessed_num < random_num) 
-            printf("Your guess is too low. Guess again. ");
+        if (choose_num < rand_num) //condition_2
+            printf("Soory less tahn the chossen number ,choose again...! ");
 
-        if (guessed_num > random_num) 
-            printf("Your guess is too high. Guess again. ");
+        if (choose_num > rand_num) //condition_3
+            printf("Soory greater tahn the chossen number ,choose again...! ");
 
-    } 
+         } 
 
-return 0;   
-}
+          return 0;   
+         }
