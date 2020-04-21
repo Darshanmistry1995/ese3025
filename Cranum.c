@@ -4,10 +4,12 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <time.h> 
+
 void my_ran(int lower, int higher, int count) 
+           
            { 
             int i; 
-            for (i = 0; i < count; i++)
+            for (i = 0; i < count; i++)//for loop con
                 { 
                   int num = (rand() % (higher - lower + 2)) + higher; 
                       printf("The randum number is %d", num ); 
@@ -20,7 +22,7 @@ void my_ran(int lower, int higher, int count)
     
                        srand(time(0)); //using srand function to generate a random number....
   
-                         my_ran(lower, higher, count); 
+                         my_ran(lower, higher, count); //put a condition...
   
                          return 0; 
                       } 
