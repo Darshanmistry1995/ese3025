@@ -28,7 +28,6 @@ static void setHrd(void)
       {
 	setHrd();
 	int i=0;
-
 	while(1) //Put a while loop to read a sate of on board button...
        {
 	bool button_state = false ;
