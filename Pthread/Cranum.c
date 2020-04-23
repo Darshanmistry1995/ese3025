@@ -4,6 +4,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <time.h> 
+
   
 void my_ran(int lower, int higher, int count) 
   
