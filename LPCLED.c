@@ -12,7 +12,6 @@ static void setHrd(void)
       {
 	SystemCoreClockUpdate();
 	Board_Init(); //Initializing a board for setting up....
-
 	//As in a initial state all leds are in off condition..
 
 	Board_LED_Set(0, true);  //RED   LED OFF
