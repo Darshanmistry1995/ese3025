@@ -15,7 +15,6 @@ int main(void)
    {
     int status;
     unsigned int cnt=0;
-    
     if (signal(SIGINT, sig_handler) == SIG_ERR) 
     
     {
