@@ -5,7 +5,6 @@
 #include <time.h>
 
 void sig_handler(int signo)  
-    
 {
     
     if (signo == SIGINT)
