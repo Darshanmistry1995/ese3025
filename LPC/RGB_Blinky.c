@@ -23,7 +23,6 @@ uint8_t led_blue=2;
 static void prvSetupHardware(void)
  
 {
- 
 SystemCoreClockUpdate();
 Board_Init();
 
