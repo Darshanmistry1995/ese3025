@@ -31,7 +31,6 @@ Board_LED_Set(0, turn_off);
 Board_LED_Set(1, turn_off);
 Board_LED_Set(2, turn_off);
 }
-
 /* LED toggle thread */
 static void vLED_ToggleTask(void *pvParameters)
  
