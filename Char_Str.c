@@ -2,6 +2,7 @@
 //print a character string..
 
 #include <stdio.h>
+using nmespace
 int main ()
 {
    char search_eng[20], link[30]; //char. string define
