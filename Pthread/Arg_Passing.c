@@ -19,7 +19,7 @@ void *func(void *input) //creat a void function for argumnet
 
 int main() 
 {
-    struct argum *Darshan = (struct argum *)malloc(sizeof(struct argum));
+ struct argum *Darshan = (struct argum *)malloc(sizeof(struct argum));
     char darshan[10];
     Darshan->user_name = darshan;
     Darshan->user_age = 24;
