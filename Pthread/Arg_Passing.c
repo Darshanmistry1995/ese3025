@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct argum //create a function using a struct..
+ struct argum //create a function using a struct..
 {
     char* user_name;
     int user_age;
