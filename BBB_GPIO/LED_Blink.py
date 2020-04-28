@@ -1,4 +1,6 @@
 #Darshan Mistry..
+#High speed Led blinking..
+
 import Adafruit_BBIO.GPIO as GPIO 
 import time //Time def.
  
