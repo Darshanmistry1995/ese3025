@@ -1,5 +1,5 @@
 //Blink a red green and blue Led’s using a single function...
-//Darshan Mistry....
+//Darshan Mistry..
 
 #include "board.h"
 #include "FreeRTOS.h"
