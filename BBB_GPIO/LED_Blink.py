@@ -4,6 +4,7 @@
 import Adafruit_BBIO.GPIO as GPIO 
 import time //Time def.
  
+ 
 GPIO.setup("P8_11", GPIO.OUT) //Pin_10 = GPIO_45 Config as a output
  
 while True: //while loop
