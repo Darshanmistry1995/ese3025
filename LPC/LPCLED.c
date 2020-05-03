@@ -58,8 +58,8 @@ static void setHrd(void)
                   i=0 ;
                  }
 	   			  
-                  }
-	            }
+                 }
+	         }
 
-	             return 0 ;
-                                  }
+	          return 0 ;
+                             }
