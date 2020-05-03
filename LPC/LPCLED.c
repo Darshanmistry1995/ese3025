@@ -7,7 +7,6 @@
 //Hardware Setup Begains..
 
 static void setHrd(void)
-	
       {
 	SystemCoreClockUpdate();
 	
