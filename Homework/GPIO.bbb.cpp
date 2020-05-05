@@ -2,7 +2,7 @@ GPIO
 //Darshan Mistry.
 
 #include<iostream>
-#include<unistd.h> //for usleep
+#include<unistd.h> //for usleep..
 #include"GPIO.h"
 using namespace exploringBB;
 using namespace std;
