@@ -2,7 +2,7 @@ GPIO
 //Darshan Mistry.
 
 #include<iostream>
-#include<unistd.h> //for usleep..
+#include<unistd.h> //for usleep library.
 #include"GPIO.h"
 using namespace exploringBB;
 using namespace std;
@@ -16,8 +16,8 @@ int main()
    {
       outGPIO.setValue(HIGH);
       usleep(250000); //usleep used for sleep a processor micro-second
-      outGPIO.setValue(LOW);
-      usleep(250000);
+      outGPIO.setValue(LOW); to
+      usleep(250000);
    }
    
    outGPIO.streamOpen();
