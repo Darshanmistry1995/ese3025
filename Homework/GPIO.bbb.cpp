@@ -1,5 +1,5 @@
 GPIO
-//Darshan Mistry..
+//Darshan Mistry.
 
 #include<iostream>
 #include<unistd.h> //for usleep
