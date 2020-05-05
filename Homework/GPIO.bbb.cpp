@@ -21,8 +21,8 @@ int main()
    }
    
    outGPIO.streamOpen();
-   for (int i=0; i<1000000; i++) // toggle to GPIO 1 million times
-   {
+   for (int i=0; i<1000000; i++) // Toggle to GPIO 1 million times
+   {
       outGPIO.streamWrite(HIGH);
       outGPIO.streamWrite(LOW);
    }
