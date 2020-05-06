@@ -1,5 +1,5 @@
 //Darshan Mistry..
-//MCUXPRESSO LPC1769 Board..
+//MCUXPRESSO LPC1769 Board.
 //LED Blink using on board toggle button.
 
 #include "board.h"
