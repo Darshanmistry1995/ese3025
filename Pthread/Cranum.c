@@ -8,7 +8,7 @@
 void my_ran(int lower, int higher, int count) 
   
            { 
-  
+ 
             int i; 
             for (i = 0; i < count; i++)
               
