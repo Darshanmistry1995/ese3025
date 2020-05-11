@@ -7,7 +7,7 @@ int main()
     if ((fptr = fopen("NSC.txt", "r")) == NULL) 
         
 {
-        printf("Error! opening file...
+        printf("Error! opening file.
                
 ");
         // Program exits if file pointer returns NULL.
