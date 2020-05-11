@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h> // For exit() function
-int main() {
+int main() 
+{
     char c[1000];
     FILE *fptr;
     if ((fptr = fopen("NSC.txt", "r")) == NULL) 
