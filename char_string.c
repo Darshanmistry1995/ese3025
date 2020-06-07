@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // For exit() function....
+#include <stdlib.h> // For exit() function..
 int main() 
 {
     char c[10000000];
