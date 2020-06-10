@@ -12,7 +12,8 @@ int main () {
    int n;
 
    printf("Before sorting the list is: \n");
-   for( n = 0 ; n < 5; n++ ) {
+   for( n = 0 ; n < 5; n++ )
+  {
       printf("%d ", myarr[n]);
    }
 
