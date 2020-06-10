@@ -10,6 +10,7 @@ int cmpar (void * a, void * b)
 
 int main ()
   {
+
    int n;
 
    printf("Before sorting the list is: \n");
