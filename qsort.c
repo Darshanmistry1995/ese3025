@@ -6,9 +6,10 @@ int myarr[] = { 88, 56, 100, 2, 25 };
 int cmpar (void * a, void * b)
  {
    return ( *(int*)a - *(int*)b );
-}
+ }
 
-int main () {
+int main ()
+  {
    int n;
 
    printf("Before sorting the list is: \n");
