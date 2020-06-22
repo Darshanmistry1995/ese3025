@@ -1,6 +1,6 @@
 //Darshan Mistry//
 
-//Argument passing using a function..
+//Argument passing using a function.
 
 
 #include <pthread.h>
