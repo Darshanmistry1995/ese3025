@@ -6,7 +6,7 @@
 
 int main ()
 {
-   char search_eng[20], link[30]; //char..string define
+   char search_eng[20], link[30]; //char.string define
 
    printf("search engine: ");
    scanf("%s", search_eng);//scan entered data one by one
