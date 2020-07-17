@@ -1,4 +1,4 @@
-//Darshan Mistry.
+//Darshan Mistry..
 // C program for generating a random number with having a range.
 
 #include <stdio.h> 
