@@ -1,6 +1,6 @@
 //Darshan Mistry//
 
-//print a character string.
+//print a character string..
 
 #include <stdio.h>
 
