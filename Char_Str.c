@@ -11,7 +11,7 @@ int main ()
    printf("search engine.: ");
    scanf("%s", search_eng);//scan entered data one by one
 
-   printf("Enter a link address: ");
+   printf("Enter a link address.: ");
    scanf("%s", link);
 
    printf("selected search engine: %s\n", search_eng); //print a string one by one
