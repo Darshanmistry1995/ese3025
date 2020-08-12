@@ -2,7 +2,7 @@
 #include <stdlib.h> // For exit() function.
 int main() 
 {
-    char c[10000000];
+    char c[100000];
     FILE *fptr;
     if ((fptr = fopen("NSC.txt", "r")) == NULL) 
         
