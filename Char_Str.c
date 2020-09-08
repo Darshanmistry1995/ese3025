@@ -1,5 +1,5 @@
-//Darshan Mistry//
-//print a character string.
+//Darshan Mistry
+//print a character string...
 
 #include <stdio.h>
 
