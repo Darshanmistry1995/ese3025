@@ -59,7 +59,7 @@ int main(void)
             
              }
 
-        cnt += 1;
+        cnt += 2;
         sleep(1);
     }
 
