@@ -10,7 +10,6 @@ using namespace std;
 int main()
 {
    GPIO outGPIO(28);
-
    outGPIO.setDirection(OUTPUT); //set GPIO for outout function
    for (int i=0; i<10; i++)
    {
