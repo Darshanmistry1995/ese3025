@@ -1,5 +1,5 @@
-//Darshan Mistry.
-//GPIO frequncy Generator.
+//Darshan Mistry
+//GPIO frequncy Generator
 
 #include <stdio.h>
 #include <stdlib.h>
