@@ -15,6 +15,5 @@ int main ()
 
    printf("selected search engine: %s\n", search_eng); //print a string one by one
    printf("copied link address:%s", link);
-   
    return(0);
 }
